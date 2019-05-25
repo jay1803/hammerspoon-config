@@ -1,6 +1,7 @@
 # Hammerspoon config
 
 | Shortcuts | Functions |
+| ---- | ---- |
 | shift + ctrl + ⬅️➡️ | Focus the left/right window on screen. |
 | ctrl + cmd + ⬆️⬇️⬅️➡️ | resize window to 1/2, and move to ⬆️⬇️⬅️➡️ |
 | ctrl + cmd + F | resize window to 100%. |
