@@ -228,22 +228,3 @@ hs.hotkey.bind({"cmd", "alt", "ctrl"}, "R", function()
   hs.reload()
   hs.notify.new({title="Hammerspoon", informativeText="Config reloaded.", hasActionButton=false}):send()
 end)
-
-
-caffeine = hs.menubar.new()
-function setCaffeineDisplay(state)
-    if state then
-        caffeine:setTitle("AWAKE")
-    else
-        caffeine:setTitle("SLEEPY")
-    end
-end
-
-function caffeineClicked()
-    setCaffeineDisplay(hs.caffeinate.toggle("displayIdle"))
-end
-
-if caffeine then
-    caffeine:setClickCallback(caffeineClicked)
-    setCaffeineDisplay(hs.caffeinate.get("displayIdle"))
-end
