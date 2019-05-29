@@ -2,6 +2,7 @@
 
 | Shortcuts | Functions |
 | ---- | ---- |
+| cmd + L | Lock screen, conflict with focus URL address in Chrome.  |
 | shift + ctrl + ⬅️➡️⬆️⬇️ | Focus the next window on left/right/up/down side of current screen. |
 | ctrl + cmd + ⬆️⬇️⬅️➡️ | resize window to 1/2, and move to ⬆️⬇️⬅️➡️ |
 | ctrl + cmd + F | resize window to 100%. |

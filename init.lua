@@ -1,3 +1,10 @@
+hs.hotkey.bind({"cmd"}, "L", function()
+    local win = hs.window.focusedWindow()
+    if not (string.match( win:title(),'Microsoft Edge') or string.match( win:title(),'Chrome')) then
+        hs.caffeinate.lockScreen()
+    end
+end)
+
 hs.hotkey.bind({"shift", "ctrl"}, "Right", function()
     hs.window.filter.focusEast()
 end)
