@@ -6,6 +6,14 @@ hs.hotkey.bind({"shift", "ctrl"}, "Left", function()
     hs.window.filter.focusWest()
 end)
 
+hs.hotkey.bind({"shift", "ctrl"}, "Up", function()
+    hs.window.filter.focusNorth()
+end)
+
+hs.hotkey.bind({"shift", "ctrl"}, "Down", function()
+    hs.window.filter.focusSouth()
+end)
+
 hs.hotkey.bind({"ctrl", "cmd"}, "Left", function()
     local win = hs.window.focusedWindow()
     local f = win:frame()
@@ -158,6 +166,15 @@ hs.hotkey.bind({"shift", "ctrl", "alt"}, "Right", function()
     f.w = max.w / 1.5
     f.h = max.h
     win:setFrame(f)
+end)
+
+hs.hotkey.bind({"shift", "ctrl", "alt"}, "Down", function()
+    local win = hs.window.focusedWindow()
+    if win:isMinimized() then
+        win:unminimize()
+    else
+        win:minimize()
+    end
 end)
 
 hs.hotkey.bind({"shift", "cmd", "alt", "ctrl"}, "Left", function()

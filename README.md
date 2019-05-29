@@ -2,7 +2,7 @@
 
 | Shortcuts | Functions |
 | ---- | ---- |
-| shift + ctrl + ⬅️➡️ | Focus the left/right window on screen. |
+| shift + ctrl + ⬅️➡️⬆️⬇️ | Focus the next window on left/right/up/down side of current screen. |
 | ctrl + cmd + ⬆️⬇️⬅️➡️ | resize window to 1/2, and move to ⬆️⬇️⬅️➡️ |
 | ctrl + cmd + F | resize window to 100%. |
 | shift + ctrl + cmd + ️️⬆️⬅️➡️ | resize window to 1/3, and move to center, left, right. |
